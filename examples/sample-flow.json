@@ -1,0 +1,17 @@
+{
+  "flow_id": "demo-ethereum-flow-001",
+  "chain": "ethereum",
+  "generated_at": "2026-01-17T00:00:00Z",
+  "nodes": [
+    { "id": "n1", "type": "address", "label": "Wallet A", "chain_address": "0x1111111111111111111111111111111111111111" },
+    { "id": "n2", "type": "contract", "label": "Contract X", "chain_address": "0x2222222222222222222222222222222222222222" },
+    { "id": "n3", "type": "exchange", "label": "Exchange Y" }
+  ],
+  "edges": [
+    { "source": "n1", "target": "n2", "amount": 1.25, "asset": "ETH", "timestamp": "2026-01-16T12:00:00Z" },
+    { "source": "n2", "target": "n3", "amount": 2400.0, "asset": "USDC", "timestamp": "2026-01-16T12:05:00Z" }
+  ],
+  "meta": {
+    "note": "Synthetic example payload for documentation only."
+  }
+}
